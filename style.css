@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  background: radial-gradient(circle, #110000, #000000);
+  color: white;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #000;
+  border-right: 1px solid red;
+  padding: 20px;
+}
+
+.logo {
+  color: red;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.nav li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.nav a, .nav button, .settings > span {
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.settings {
+  margin-top: 40px;
+}
+
+.sub-settings {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  color: red;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #ddd;
+  margin-bottom: 30px;
+}
+
+.learn-btn {
+  padding: 12px 25px;
+  border: 2px solid red;
+  border-radius: 30px;
+  background: transparent;
+  color: red;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.learn-btn:hover {
+  background: red;
+  color: black;
+}
+
+.auth-container {
+    max-width: 400px;
+    margin: 100px auto;
+    background: #111;
+    padding: 40px;
+    border-radius: 15px;
+    border: 1px solid red;
+    text-align: center;
+  }
+  
+  .auth-container h2 {
+    margin-bottom: 20px;
+    color: red;
+  }
+  
+  .auth-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background-color: #222;
+    color: white;
+  }
+  
+  .auth-container button {
+    padding: 10px 20px;
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .auth-container a {
+    color: red;
+    text-decoration: none;
+  }
+
+  .chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid red;
+  }
+  
+  .chat-header input {
+    background-color: #111;
+    color: white;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 8px 15px;
+    width: 300px;
+  }
+  
+  .chat-window {
+    margin-top: 20px;
+    height: 400px;
+    background-color: #111;
+    border-radius: 10px;
+    padding: 15px;
+    overflow-y: auto;
+    border: 1px solid #333;
+  }
+  
+  .message {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+  }
+  
+  .user {
+    background-color: #222;
+    text-align: right;
+    margin-left: auto;
+    color: white;
+  }
+  
+  .bot {
+    background-color: red;
+    color: black;
+    text-align: left;
+    margin-right: auto;
+  }
+  
+  .chat-input {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .chat-input input {
+    flex-grow: 1;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #444;
+    background-color: #222;
+    color: white;
+  }
+  
+  .chat-input button {
+    padding: 0 20px;
+    background-color: red;
+    border: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
